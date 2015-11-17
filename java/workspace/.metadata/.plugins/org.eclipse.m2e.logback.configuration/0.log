@@ -1966,3 +1966,4 @@ Caused by: java.nio.channels.UnresolvedAddressException: null
 2015-11-17 14:37:38,592 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
 2015-11-17 16:30:03,304 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
 2015-11-17 16:31:00,657 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
+2015-11-17 18:08:03,421 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
