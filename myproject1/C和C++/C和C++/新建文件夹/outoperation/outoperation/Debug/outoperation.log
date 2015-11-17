@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/10/11 15:57:32。
+     1>项目“C:\Users\wangshuang\Desktop\新建文件夹1\outoperation\outoperation\outoperation.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt outoperation.cpp stdafx.cpp
+         stdafx.cpp
+         outoperation.cpp
+     1>f:\vs2015\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
+         f:\vs2015\vc\atlmfc\include\afx.h(33): note: 参见“MBCS_Support_Deprecated_In_MFC”的声明
+         正在生成代码...
+       Link:
+         F:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\wangshuang\Desktop\新建文件夹1\outoperation\Debug\outoperation.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /manifest:embed /manifestinput:F:\VS2015\VC\Include\Manifest\dpiaware.manifest /Debug /PDB:"C:\Users\wangshuang\Desktop\新建文件夹1\outoperation\Debug\outoperation.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\wangshuang\Desktop\新建文件夹1\outoperation\Debug\outoperation.lib" /MACHINE:X86 Debug\outoperation.obj
+         Debug\stdafx.obj
+         outoperation.vcxproj -> C:\Users\wangshuang\Desktop\新建文件夹1\outoperation\Debug\outoperation.exe
+     1>已完成生成项目“C:\Users\wangshuang\Desktop\新建文件夹1\outoperation\outoperation\outoperation.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:03.97

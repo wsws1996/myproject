@@ -1,0 +1,17 @@
+package cn.wang;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class Demo {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		URL url = new URL("http://localhost:8080/day08/servlet/ServletDemo1");
+		HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
+
+	}
+
+}

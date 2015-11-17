@@ -1,0 +1,8 @@
+package cn.wang;
+
+public class CalcutatorBean {
+	private double firstNum;
+	private double secondNum;
+	private String operator;
+	private double result;
+}

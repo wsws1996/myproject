@@ -1,0 +1,22 @@
+﻿生成启动时间为 2015/3/6 22:24:01。
+     1>项目“E:\C\test\test\test.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\test.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp wangshuang.cpp
+         test.cpp
+     1>e:\c\test\test\wangshuang.h(8): error C2504: “exception”: 未定义基类
+     1>e:\c\test\test\wangshuang.h(10): error C2146: 语法错误: 缺少“;”(在标识符“what”的前面)
+     1>e:\c\test\test\wangshuang.h(10): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c\test\test\wangshuang.h(10): warning C4183: “what”:  缺少返回类型；假定为返回“int”的成员函数
+         wangshuang.cpp
+     1>e:\c\test\test\wangshuang.h(8): error C2504: “exception”: 未定义基类
+     1>e:\c\test\test\wangshuang.h(10): error C2146: 语法错误: 缺少“;”(在标识符“what”的前面)
+     1>e:\c\test\test\wangshuang.h(10): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\c\test\test\wangshuang.h(10): warning C4183: “what”:  缺少返回类型；假定为返回“int”的成员函数
+     1>wangshuang.cpp(4): error C2011: “personal”:“class”类型重定义
+                 e:\c\test\test\wangshuang.h(7) : 参见“personal”的声明
+     1>wangshuang.cpp(24): error C3861: “personal”:  找不到标识符
+     1>已完成生成项目“E:\C\test\test\test.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.78

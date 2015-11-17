@@ -1,0 +1,151 @@
+class String
+{
+public:
+	String()
+	{
+		cout << "无参构造函数" << endl;
+		size = 0;
+		str = new char[1];
+		str[0] = '\0';
+	}
+	String(const char*const ch)
+	{
+		cout << "单参构造函数" << endl;
+		size = strlen(ch);
+		str = new char[size + 1];
+		for (int i = 0; i < size; ++i)
+		{
+			str[i] = ch[i];
+		}
+		str[size] = '\0';
+	}
+	int length(void)
+	{
+		size = strlen(str);
+		return size;
+	}
+	~String()
+	{
+		cout << "析构函数运行……" << endl;
+		delete []str;
+		size = 0;
+	}
+	char &operator[](int length)
+	{
+		cout << "[]run" << endl;
+		if (length > size||(length < 0))
+		{
+			return str[size-1];
+		}
+		else
+		{
+			return str[length];
+		}
+	}
+	String(String&rs)
+	{
+		size = rs.length();
+		str = new char[size+1];
+		for (int i = 0; i < size; ++i)
+		{
+			str[i] = rs[i];
+		}
+		str[size] = '\0';
+	}
+	String &operator = (String &s)
+	{
+		cout << "=run" << endl;
+		if (this == &s)
+			return *this;
+		else
+		{
+			delete[]str;
+			str = new char[s.length() + 1];
+			for (int i = 0; i < s.length(); ++i)
+			{
+				str[i] = s[i];
+			}
+			str[s.length()] = '\0';
+		}
+		return *this;
+	}
+	String &operator = (char *ch)
+	{
+		cout << "=run" << endl;
+			delete[]str;
+			str = new char[strlen(ch) + 1];
+			for (int i = 0; i < strlen(ch); ++i)
+			{
+				str[i] = ch[i];
+			}
+			str[strlen(ch)] = '\0';
+			length();
+		return *this;
+	}
+	friend ostream& operator<<(ostream& o, const String &str)
+	{
+		o << str.str;
+		return o;
+	}
+	friend istream& operator>>(istream& s, String &str)
+	{
+		s >> str.str;
+		return s;
+	}
+	friend bool operator<(const String&str1, const String&str2)
+	{
+		if (strcmp(str1.str, str2.str)<0)
+			return true;
+		return false;
+	}
+	friend bool operator>(const String&str1, const String&str2)
+	{
+		if (strcmp(str1.str, str2.str)<0)
+			return false;
+		return true;
+	}
+	friend bool operator==(const String&str1, const String&str2)
+	{
+		if (strcmp(str1.str, str2.str)==0)
+			return true;
+		return false;
+	}
+	String operator+(String&s)
+	{
+		cout << "+run" << endl;
+		int total = size + s.length();
+		String t(total);
+		for (int i = 0; i < size + s.length(); ++i)
+		{
+			if (i < size)
+			{
+				t.str[i] = str[i];
+			}
+			else
+			{
+				t.str[i] = s[i - size];
+			}
+		}
+		t.str[size + s.length()] = '\0';
+		return t;
+	}
+	String operator+=(String&s)
+	{
+		cout << "+=run" << endl;
+		int total = size + s.length();
+		String t(total);
+		for (int i = 0; i < size + s.length(); ++i)
+		{
+			if (i < size)
+			{
+				t.str[i] = str[i];
+			}
+			else
+			{
+				t.str[i] = s[i - size];
+			}
+		}
+		t.str[size + s.length()] = '\0';
+		*this = t;
+		return *this;
+	}

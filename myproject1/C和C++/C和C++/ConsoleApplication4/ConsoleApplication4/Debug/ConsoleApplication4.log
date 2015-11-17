@@ -1,0 +1,3 @@
+﻿  ConsoleApplication4.cpp
+e:\c\consoleapplication4\consoleapplication4\consoleapplication4.cpp(177): error C4996: 'setbuf': This function or variable may be unsafe. Consider using setvbuf instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          f:\vs2013\vc\include\stdio.h(292) : 参见“setbuf”的声明
