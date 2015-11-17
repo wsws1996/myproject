@@ -11,6 +11,10 @@
 	<section name="OverrideMethodDialog">
 		<item value="true" key="showtypes"/>
 	</section>
+	<section name="NewXmlCreationWizardPage">
+		<item value="Default XML template" key="templatezh_CN"/>
+		<item value="/day09_user_login/src" key="filePath"/>
+	</section>
 	<section name="BuildPathsPropertyPage">
 		<item value="2" key="pageIndex"/>
 	</section>
@@ -78,9 +82,9 @@
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
 		<item value="655" key="DIALOG_WIDTH"/>
-		<item value="2" key="DIALOG_Y_ORIGIN"/>
+		<item value="-1" key="DIALOG_Y_ORIGIN"/>
 		<item value="703" key="DIALOG_HEIGHT"/>
-		<item value="356" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">

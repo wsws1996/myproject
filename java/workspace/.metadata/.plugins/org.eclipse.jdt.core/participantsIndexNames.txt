@@ -15,6 +15,10 @@ INDEX VERSION 1.126
 /day05-myself/src
 /F/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1831659054.index
 /day06/src
+/E/myproject/java/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2586615047.index
+/day09_user/src
+/E/myproject/java/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1919370541.index
+/day09_user_login/src
 /mnt/hgfs/F/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2818604863.index
 /myday06/src
 /E/myproject/java/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3398694358.index

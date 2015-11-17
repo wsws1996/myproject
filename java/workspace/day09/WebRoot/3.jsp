@@ -20,6 +20,8 @@
 		request.setAttribute("person", p);
 	%>
 	${person.age }
+
+	<%--${person.username } --%>
 	<%
 		Person person = new Person();
 		Add add = new Add();
