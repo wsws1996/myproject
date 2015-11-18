@@ -5,11 +5,16 @@ import java.text.SimpleDateFormat;
 import org.dom4j.Document;
 import org.dom4j.Element;
 
+import cn.wang.dao.UserDao;
 import cn.wang.domain.User;
 import cn.wang.utils.XmlUtils;
 
-public class UserDaoXmlImpl {
+public class UserDaoXmlImpl implements UserDao {
 
+	/* (non-Javadoc)
+	 * @see cn.wang.dao.impl.UserDao#find(java.lang.String, java.lang.String)
+	 */
+	@Override
 	public User find(String username, String password) {
 
 		try {
@@ -35,6 +40,10 @@ public class UserDaoXmlImpl {
 		}
 	}
 
+	/* (non-Javadoc)
+	 * @see cn.wang.dao.impl.UserDao#add(cn.wang.domain.User)
+	 */
+	@Override
 	public void add(User user) {
 		try {
 			Document document = XmlUtils.getDocument();
@@ -52,6 +61,10 @@ public class UserDaoXmlImpl {
 		}
 	}
 
+	/* (non-Javadoc)
+	 * @see cn.wang.dao.impl.UserDao#find(java.lang.String)
+	 */
+	@Override
 	public User find(String username) {
 		try {
 			Document document = XmlUtils.getDocument();
