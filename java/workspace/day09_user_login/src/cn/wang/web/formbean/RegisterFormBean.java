@@ -16,6 +16,14 @@ public class RegisterFormBean {
 
 	private Map<String, String> errors = new HashMap();
 
+	public Map<String, String> getErrors() {
+		return errors;
+	}
+
+	public void setErrors(Map<String, String> errors) {
+		this.errors = errors;
+	}
+
 	public String getUsername() {
 		return username;
 	}
@@ -83,8 +91,9 @@ public class RegisterFormBean {
 				errors.put("password2", "两次密码不一致！！！");
 			}
 		}
+		//\\w+@\\w+(\\.\\w+)+
 		if (this.email != null) {
-			if (!this.email.matches("\\w+@\\w+(\\.\\w)+")) {
+			if (!this.email.matches("\\w+@\\w+(\\.\\w+)+")) {
 				isOK = false;
 				errors.put("email", "邮箱不是一个合法邮箱！！！");
 			}

@@ -33,3 +33,5 @@ INDEX VERSION 1.126
 /day07/src
 /F/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2626664603.index
 /day08/src
+/E/myproject/java/workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/482670665.index
+/day09_user/src

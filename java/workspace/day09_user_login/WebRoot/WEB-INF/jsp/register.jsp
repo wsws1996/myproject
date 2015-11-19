@@ -8,30 +8,30 @@
 
 </head>
 
-<body style="text-align: center;" >
+<body style="text-align: center;">
 	<form
 		action="${pageContext.request.contextPath }/servlet/RegisterServlet"
-		method="post">
-		<table align="center" width="60%">
+		method="get">
+		<table align="center" width="100%">
 			<tr>
 				<td>用户名：</td>
-				<td><input type="text" name="username"></td>
+				<td><input type="text" name="username">${formbean.errors.username }</td>
 			</tr>
 			<tr>
 				<td>密码：</td>
-				<td><input type="password" name="password"></td>
+				<td><input type="password" name="password">${formbean.errors.password }</td>
 			</tr>
 			<tr>
 				<td>确认密码：</td>
-				<td><input type="password" name="password2"></td>
+				<td><input type="password" name="password2">${formbean.errors.password2 }</td>
 			</tr>
 			<tr>
 				<td>邮箱：</td>
-				<td><input type="text" name="email"></td>
+				<td><input type="text" name="email">${formbean.errors.email }</td>
 			</tr>
 			<tr>
 				<td>生日：</td>
-				<td><input type="text" name="birthday"></td>
+				<td><input type="text" name="birthday">${formbean.errors.birthday}</td>
 			</tr>
 			<tr>
 				<td><input type="reset" value="清空"></td>
