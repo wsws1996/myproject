@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="cn.wang.shopping.Book"/>
-<fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="cn.wang.login.DB.User"/>
 <fullyQualifiedTypeName name="cn.wang.login.DB"/>
 <fullyQualifiedTypeName name="cn.wang.login.User"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
@@ -41,14 +36,9 @@
 <fullyQualifiedTypeName name="java.lang.VirtualMachineError"/>
 <fullyQualifiedTypeName name="cn.wang.dao.UserDao"/>
 <fullyQualifiedTypeName name="cn.wang.dao.impl.UserDaoXmlImpl"/>
-<fullyQualifiedTypeName name="cn.wang.exception.UserExistException"/>
-<fullyQualifiedTypeName name="cn.wang.domain.User"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="org.apache.commons.beanutils.locale.converters.DateLocaleConverter"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
@@ -56,8 +46,18 @@
 <fullyQualifiedTypeName name="T"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="org.apache.commons.beanutils.BeanUtils"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-<fullyQualifiedTypeName name="cn.wang.utils.WebUtils"/>
 <fullyQualifiedTypeName name="cn.wang.web.formbean.RegisterFormBean"/>
+<fullyQualifiedTypeName name="cn.wang.domain.User"/>
+<fullyQualifiedTypeName name="org.apache.commons.beanutils.BeanUtils"/>
+<fullyQualifiedTypeName name="org.apache.commons.beanutils.ConvertUtils"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="org.apache.commons.beanutils.locale.converters.DateLocaleConverter"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.apache.commons.collections.FastHashMap"/>
+<fullyQualifiedTypeName name="java.util.UUID"/>
+<fullyQualifiedTypeName name="cn.wang.utils.WebUtils"/>
+<fullyQualifiedTypeName name="cn.wang.service.BusinessService"/>
+<fullyQualifiedTypeName name="cn.wang.service.impl.BusinessServiceImpl"/>
+<fullyQualifiedTypeName name="cn.wang.exception.UserExistException"/>
 </qualifiedTypeNameHistroy>

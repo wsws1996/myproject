@@ -1977,3 +1977,4 @@ Caused by: java.nio.channels.UnresolvedAddressException: null
 2015-11-19 23:09:19,152 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
 2015-11-19 23:38:22,529 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
 2015-11-20 00:41:42,272 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
+2015-11-20 17:21:43,249 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started

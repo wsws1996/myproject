@@ -1,6 +1,7 @@
 package cn.wang.utils;
 
 import java.util.Enumeration;
+import java.util.UUID;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -23,5 +24,9 @@ public class WebUtils {
 			// TODO: handle exception
 			throw new RuntimeException(e);
 		}
+	}
+
+	public static String makeId() {
+		return UUID.randomUUID().toString();
 	}
 }
