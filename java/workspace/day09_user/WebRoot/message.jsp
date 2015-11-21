@@ -8,6 +8,7 @@
 
 </head>
 
-<body>${message }
+<body>
+	${message }
 </body>
 </html>

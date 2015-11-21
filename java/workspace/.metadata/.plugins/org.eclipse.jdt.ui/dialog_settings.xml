@@ -116,7 +116,7 @@
 	</section>
 	<section name="NewWebXmlLinkCreationWizardPage">
 		<item value="This is the display name of my J2EE component" key="display_name"/>
-		<item value="/day09_user_login/WebRoot/WEB-INF" key="filePath"/>
+		<item value="/day09_user/WebRoot/WEB-INF" key="filePath"/>
 		<item value="This is the description of my J2EE component" key="description"/>
 		<item value="true" key="do_mapping"/>
 	</section>
@@ -202,6 +202,6 @@
 	</section>
 	<section name="NewJspCreationWizardPage">
 		<item value="Default JSP template" key="templatezh_CN"/>
-		<item value="/day09_user/WebRoot" key="filePath"/>
+		<item value="/day09_user/WebRoot/WEB-INF/jsp" key="filePath"/>
 	</section>
 </section>

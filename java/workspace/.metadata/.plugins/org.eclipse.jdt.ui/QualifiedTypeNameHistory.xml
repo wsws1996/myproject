@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="cn.wang.login.DB"/>
 <fullyQualifiedTypeName name="cn.wang.login.User"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
@@ -45,10 +44,8 @@
 <fullyQualifiedTypeName name="java.lang.Class"/>
 <fullyQualifiedTypeName name="T"/>
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
 <fullyQualifiedTypeName name="cn.wang.web.formbean.RegisterFormBean"/>
-<fullyQualifiedTypeName name="cn.wang.domain.User"/>
 <fullyQualifiedTypeName name="org.apache.commons.beanutils.BeanUtils"/>
 <fullyQualifiedTypeName name="org.apache.commons.beanutils.ConvertUtils"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
@@ -57,7 +54,10 @@
 <fullyQualifiedTypeName name="org.apache.commons.collections.FastHashMap"/>
 <fullyQualifiedTypeName name="java.util.UUID"/>
 <fullyQualifiedTypeName name="cn.wang.utils.WebUtils"/>
-<fullyQualifiedTypeName name="cn.wang.service.BusinessService"/>
-<fullyQualifiedTypeName name="cn.wang.service.impl.BusinessServiceImpl"/>
 <fullyQualifiedTypeName name="cn.wang.exception.UserExistException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="cn.wang.service.BusinessService"/>
+<fullyQualifiedTypeName name="org.jboss.weld.ejb.spi.BusinessInterfaceDescriptor"/>
+<fullyQualifiedTypeName name="cn.wang.service.impl.BusinessServiceImpl"/>
+<fullyQualifiedTypeName name="cn.wang.domain.User"/>
 </qualifiedTypeNameHistroy>
