@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="cn.wang.login.User"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="javax.jms.Message"/>
 <fullyQualifiedTypeName name="java.security.MessageDigest"/>
 <fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
@@ -35,7 +31,6 @@
 <fullyQualifiedTypeName name="java.lang.VirtualMachineError"/>
 <fullyQualifiedTypeName name="cn.wang.dao.UserDao"/>
 <fullyQualifiedTypeName name="cn.wang.dao.impl.UserDaoXmlImpl"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
@@ -55,9 +50,14 @@
 <fullyQualifiedTypeName name="java.util.UUID"/>
 <fullyQualifiedTypeName name="cn.wang.utils.WebUtils"/>
 <fullyQualifiedTypeName name="cn.wang.exception.UserExistException"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="cn.wang.service.BusinessService"/>
 <fullyQualifiedTypeName name="org.jboss.weld.ejb.spi.BusinessInterfaceDescriptor"/>
 <fullyQualifiedTypeName name="cn.wang.service.impl.BusinessServiceImpl"/>
 <fullyQualifiedTypeName name="cn.wang.domain.User"/>
+<fullyQualifiedTypeName name="cn.wang.db.MyDb"/>
+<fullyQualifiedTypeName name="cn.wang.dao.BookDao"/>
+<fullyQualifiedTypeName name="cn.wang.service.BusinessService"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="cn.wang.domain.Book"/>
 </qualifiedTypeNameHistroy>

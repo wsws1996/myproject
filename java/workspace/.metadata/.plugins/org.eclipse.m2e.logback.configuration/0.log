@@ -1980,3 +1980,6 @@ Caused by: java.nio.channels.UnresolvedAddressException: null
 2015-11-20 17:21:43,249 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
 2015-11-21 19:30:59,616 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
 2015-11-21 19:32:35,100 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
+2015-11-21 21:40:21,232 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
+2015-11-21 21:40:50,985 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
+2015-11-22 12:48:52,586 [main] INFO  c.g.e.m.h.c.ui.Html5AppCoreUIPlugin - Pluging started
