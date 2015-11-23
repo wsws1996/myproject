@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.jms.Message"/>
-<fullyQualifiedTypeName name="java.security.MessageDigest"/>
-<fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
-<fullyQualifiedTypeName name="com.sun.mail.util.BASE64EncoderStream"/>
-<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.output.Encoded"/>
-<fullyQualifiedTypeName name="javax.enterprise.inject.New"/>
 <fullyQualifiedTypeName name="sun.misc.BASE64Encoder"/>
 <fullyQualifiedTypeName name="cn.wang.form.TokenPriccessor"/>
 <fullyQualifiedTypeName name="javax.persistence.metamodel.SetAttribute"/>
@@ -54,10 +48,16 @@
 <fullyQualifiedTypeName name="cn.wang.service.impl.BusinessServiceImpl"/>
 <fullyQualifiedTypeName name="cn.wang.domain.User"/>
 <fullyQualifiedTypeName name="cn.wang.db.MyDb"/>
-<fullyQualifiedTypeName name="cn.wang.dao.BookDao"/>
-<fullyQualifiedTypeName name="cn.wang.service.BusinessService"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="cn.wang.dao.BookDao"/>
 <fullyQualifiedTypeName name="cn.wang.domain.Book"/>
+<fullyQualifiedTypeName name="javax.security.auth.message.callback.PrivateKeyCallback.Request"/>
+<fullyQualifiedTypeName name="cn.wang.exception.CartNotFoundException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="cn.wang.service.BusinessService"/>
+<fullyQualifiedTypeName name="cn.wang.domain.Cart"/>
+<fullyQualifiedTypeName name="cn.wang.domain.CartItem"/>
 </qualifiedTypeNameHistroy>
